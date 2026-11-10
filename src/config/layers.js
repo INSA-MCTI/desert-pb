@@ -76,11 +76,7 @@ export const BASE_LAYERS = {
 }
 
 // ─── URL BASE DOS VECTOR TILES ────────────────────────────────────────────────
-// Sem configuração explícita, usa os tiles locais de public/tiles/.
-// BASE_URL mantém o caminho correto quando o app é servido em /insa-front/.
-const VECTOR_TILES_URL =
-  import.meta.env.VITE_TILES_URL?.trim() ||
-  `${import.meta.env.BASE_URL}tiles/insa_layers/{z}/{x}/{y}.pbf`
+const VECTOR_TILES_URL = import.meta.env.VITE_TILES_URL
 
 // URL do GeoJSON estático de focos_queimadas — mesma pasta dos tiles no
 // servidor (`{tiles_base}/focos_queimadas.geojson`, ao lado de `{z}/{x}/{y}.pbf`),
