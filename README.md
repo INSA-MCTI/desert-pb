@@ -32,6 +32,12 @@ npm run build     # build de produção em dist/
 npm run preview   # preview do build de produção
 ```
 
+No desenvolvimento, as camadas usam por padrão os tiles de
+`public/tiles/insa_layers/`. Para usar outro servidor, defina `VITE_TILES_URL`
+em `.env.development.local` (por exemplo,
+`VITE_TILES_URL=https://servidor/tiles/insa_layers/{z}/{x}/{y}.pbf`) e reinicie
+o Vite. O build de produção usa o endereço definido em `.env.production`.
+
 ## Comandos disponíveis
 
 | Comando | Descrição |
