@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DesertPB — INSA Front
 
 WebGIS desenvolvido pelo INSA (Instituto Nacional do Semiárido) para monitorar a
@@ -370,3 +371,6 @@ data/
 ## IDE recomendada
 
 [VS Code](https://code.visualstudio.com/) com a extensão [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (desative o Vetur se estiver instalado).
+=======
+# desert-pb
+>>>>>>> 089fcb5d380f12fe60ccab6850168f4e32d3073e
