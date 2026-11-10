@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DesertPB — INSA Front
 
 WebGIS desenvolvido pelo INSA (Instituto Nacional do Semiárido) para monitorar a
